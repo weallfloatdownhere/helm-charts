@@ -1,0 +1,6 @@
+image:
+  pullSecret:
+    name: regcred
+    registry: r.cfcr.io
+    username: example
+    password: password

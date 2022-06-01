@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  common:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-01T07:53:39.755248136-07:00"
+    description: Common chartbuilding components and helpers
+    digest: 7cc198e7096bfc1f06c2d3617ab63a537cfac909282114601c53eba9c171a200
+    name: common
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/common-1.0.0/common-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-06-01T07:53:39.755298723-07:00"
