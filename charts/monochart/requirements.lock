@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://weallfloatdownhere.github.io/helm-charts/
+  version: 1.0.0
+- name: dockercfg
+  repository: https://weallfloatdownhere.github.io/helm-charts/
+  version: 1.0.0
+digest: sha256:299a0e4df8337d378662e6f309e50477e101de2575a6629bee582cc8a7d97975
+generated: "2022-06-01T08:05:27.256809252-07:00"

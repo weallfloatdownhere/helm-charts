@@ -24,4 +24,15 @@ entries:
     urls:
     - https://github.com/weallfloatdownhere/helm-charts/releases/download/dockercfg-1.0.0/dockercfg-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-01T08:03:17.90582554-07:00"
+  monochart:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-06-01T08:06:13.881345091-07:00"
+    description: A declarative helm chart for deploying common types of services on
+      Kubernetes
+    digest: 4cad6dc361a0e9238f760e2539a3dd217573d1300f834515d07dd1c14f01a1e5
+    name: monochart
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/monochart-1.0.0/monochart-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-06-01T08:06:13.881364161-07:00"
