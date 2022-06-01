@@ -66,19 +66,6 @@ env: {}
 #    - config-1
 #    - config-2
 
-CertificateIssuers: {}
-#   enabled: false
-#   Issuers:
-#   - name: active-issuer
-#     enabled: true
-#     spec:
-#       selfSigned: {}
-#   clusterIssuers:
-#   - name: active-cluster-issuer
-#     enabled: false
-#     spec:
-#       selfSigned: {}
-
 # ENV variables from fieldRef.fieldPath
 # https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/#use-pod-fields-as-values-for-environment-variables
 #envFromFieldRefFieldPath:
