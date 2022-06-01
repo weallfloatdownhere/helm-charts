@@ -10,4 +10,18 @@ entries:
     urls:
     - https://github.com/weallfloatdownhere/helm-charts/releases/download/common-1.0.0/common-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-01T07:53:39.755298723-07:00"
+  dockercfg:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-01T08:03:17.905820878-07:00"
+    dependencies:
+    - name: common
+      repository: https://weallfloatdownhere.github.io/helm-charts/
+      version: 1.0.0
+    description: A Helm chart to deploy a dockercfg to a namespace
+    digest: 2bb3f6a24b13f7a410ec933a148c4bef1685a748f219c779259d012fcbe5a693
+    name: dockercfg
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/dockercfg-1.0.0/dockercfg-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-06-01T08:03:17.90582554-07:00"

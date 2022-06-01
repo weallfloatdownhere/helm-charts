@@ -1,0 +1,6 @@
+dependencies:
+- name: common
+  repository: https://weallfloatdownhere.github.io/helm-charts/
+  version: 1.0.0
+digest: sha256:7ef62c01e4e0fcdf741295ea302d8e98b3f55c908e21f9e736d5cee3bb0e7e22
+generated: "2022-06-01T08:01:43.76617777-07:00"
