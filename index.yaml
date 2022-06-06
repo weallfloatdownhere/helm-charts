@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  cert-manager-issuers:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2022-06-06T00:02:38.100468286-07:00"
+    description: Configure cert-manager Issuers and ClusterIssuers via Helm
+    digest: a1ebc91a8f19e994d27a747e5dc24cd8b347c23ac989ae80b6cbc431291aecf6
+    name: cert-manager-issuers
+    sources:
+    - https://github.com/adfinis-sygroup/helm-charts/tree/main/charts/cert-manager-issuers
+    type: application
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/cert-manager-issuers-1.0.0/cert-manager-issuers-1.0.0.tgz
+    version: 1.0.0
   common:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -35,4 +48,4 @@ entries:
     urls:
     - https://github.com/weallfloatdownhere/helm-charts/releases/download/monochart-1.0.0/monochart-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-01T08:06:13.881364161-07:00"
+generated: "2022-06-06T00:02:38.458269227-07:00"
