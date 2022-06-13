@@ -7,7 +7,6 @@ Bucket of helm charts
 # How to release.
 
 ```bash
-$ find ../ -regextype posix-extended -regex '^.*charts' -maxdepth 100 -type d \( ! -name . \) -exec bash -c "cd "{}" && cr package -p ../ && mv *.tgz path/to/helm-charts/release/" \;
 $ cd `git rev-parse --show-toplevel`
 $ cr upload --config ~/.cr.yaml
 $ cr index --pages-branch main --config ~/.cr.yaml -i .
