@@ -1,0 +1,60 @@
+apiVersion: v1
+entries:
+  argocd-app-of-app:
+  - apiVersion: v2
+    created: "2022-06-13T14:40:24.679256845-07:00"
+    description: Generic chart for creating series of Argo CD Applications and AppProjects
+      following the app-of-apps pattern
+    digest: bf7ea33649412c4a0015e2ca48bd84cc2ea2757788ac28dda6a5c44b669ef621
+    name: argocd-app-of-app
+    type: application
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/argocd-app-of-app-1.0.0/argocd-app-of-app-1.0.0.tgz
+    version: 1.0.0
+  cert-manager-issuers:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2022-06-13T14:40:24.795832505-07:00"
+    description: Configure cert-manager Issuers and ClusterIssuers via Helm
+    digest: b36040552ea03bb93cb836f9e3912a2202dd970364c9ee4c8442308fa211353a
+    name: cert-manager-issuers
+    type: application
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/cert-manager-issuers-1.0.0/cert-manager-issuers-1.0.0.tgz
+    version: 1.0.0
+  common:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-13T14:40:24.905694503-07:00"
+    description: Common chartbuilding components and helpers
+    digest: c94d42f886f3205208710a61a9062adae47dcb17095818b091163a4225c17aa4
+    name: common
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/common-1.0.0/common-1.0.0.tgz
+    version: 1.0.0
+  dockercfg:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-13T14:40:25.006493598-07:00"
+    dependencies:
+    - name: common
+      repository: https://weallfloatdownhere.github.io/helm-charts/
+      version: 1.0.0
+    description: A Helm chart to deploy a dockercfg to a namespace
+    digest: f338dfcd17faaa794a643b37b474eeb4c5ab6e91ce60979f5be72f18fef93f73
+    name: dockercfg
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/dockercfg-1.0.0/dockercfg-1.0.0.tgz
+    version: 1.0.0
+  monochart:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-06-13T14:40:25.111364881-07:00"
+    description: A declarative helm chart for deploying common types of services on
+      Kubernetes
+    digest: 371799566be218e47af5876c92c0b67eb6e1da12ac3597dd60d6ce4faeaa539f
+    name: monochart
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/monochart-1.0.0/monochart-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-06-13T14:40:25.111394193-07:00"
