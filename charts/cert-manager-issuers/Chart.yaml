@@ -3,7 +3,4 @@ name: cert-manager-issuers
 description: Configure cert-manager Issuers and ClusterIssuers via Helm
 type: application
 version: 1.0.0
-# matches apiVersion: cert-manager.io/v1
 appVersion: "1"
-sources:
-  - https://github.com/adfinis-sygroup/helm-charts/tree/main/charts/cert-manager-issuers
