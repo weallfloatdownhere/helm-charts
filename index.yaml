@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   argocd-app-of-app:
   - apiVersion: v2
+    created: "2022-06-13T13:49:46.071659232-07:00"
+    description: Generic chart for creating series of Argo CD Applications and AppProjects
+      following the app-of-apps pattern
+    digest: d9e0ecac9d0f31cc2c144e34348bd5dbe61cb68978200edca4529ff40b851b67
+    name: argocd-app-of-app
+    type: application
+    urls:
+    - https://github.com/weallfloatdownhere/helm-charts/releases/download/argocd-app-of-app-1.0.0/argocd-app-of-app-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     created: "2022-06-12T21:00:46.897348532-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
@@ -59,4 +69,4 @@ entries:
     urls:
     - https://github.com/weallfloatdownhere/helm-charts/releases/download/monochart-1.0.0/monochart-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-12T21:00:47.35626255-07:00"
+generated: "2022-06-13T13:49:46.556347686-07:00"
