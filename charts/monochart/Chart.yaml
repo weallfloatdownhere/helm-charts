@@ -6,11 +6,11 @@ version: 1.0.0
 dependencies:
   - name: common
     version: 1.0.0
-    repository: https://weallfloatdownhere.github.io/helm-charts/
-  
+    repository: file://charts/common
+
   - name: dockercfg
     version: 1.0.0
-    repository: https://weallfloatdownhere.github.io/helm-charts/
+    repository: file://charts/dockercfg
     import-values:
     - child: image.pullSecret
       parent: dockercfg.image.pullSecret

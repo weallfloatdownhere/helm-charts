@@ -7,7 +7,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ include "monochart.env.fullname" (list $root $name) }}
+  name: {{ include "common.fullname" (list $root $name) }}
 {{- with $config.annotations }}
   annotations:
 {{ toYaml . | indent 4 }}

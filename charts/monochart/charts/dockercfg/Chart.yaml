@@ -1,0 +1,9 @@
+name: dockercfg
+apiVersion: v2
+appVersion: "1.0.0"
+description: A Helm chart to deploy a dockercfg to a namespace
+version: 1.0.0
+dependencies:
+  - name: common
+    version: 1.0.0
+    repository: https://weallfloatdownhere.github.io/helm-charts/
